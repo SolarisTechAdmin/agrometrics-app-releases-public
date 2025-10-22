@@ -12,7 +12,7 @@ jobs:
 
     # Variáveis que serão usadas no script
     env:
-      TARGET_REPO_NAME: 'meu-saas-public-releases' # <--- MUDE PARA O NOME EXATO DO SEU REPO PÚBLICO
+      TARGET_REPO_NAME: 'agrometrics-app-releases' # <--- MUDE PARA O NOME EXATO DO SEU REPO PÚBLICO
       TARGET_REPO_OWNER: ${{ github.repository_owner }} # Assume o mesmo dono, mude se for diferente (ex: uma Organization)
 
     steps:
